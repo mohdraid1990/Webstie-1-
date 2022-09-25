@@ -1,0 +1,60 @@
+@media screen and (max-width:600px){
+    header {
+        
+        background-size: cover;
+        background-position: -400px;
+       
+        
+       
+        
+        
+        
+    }
+    header  .container-fluid {
+        padding-left: 1rem;
+       
+        
+    }
+    .section-1  .panel {
+       color: blueviolet;
+       margin-top: 50px;
+        
+    }
+    .section-2 .content {
+        
+        background-position: -25vmin --10vmin;
+    }
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+    .section-3 {
+        height: initial;
+        padding: 10vmin !important;
+    }
+    .section-3 .row h1 {
+       
+        padding: 6vmin 4vmin;
+    }
+    .section-3 .desktop {
+     font-size: 8vmin;
+     margin-top: 20px;   
+
+    }
+    .section-3 .desktop h3 {
+       margin-right:  20px;
+       margin-top: 10px;
+
+    }
+    .section-3 .desktop p {
+        font-size: small
+    }
+    .section-3 .desktop svg{
+        margin-bottom: 8px;
+    }
+  
+}
+@media screen and (max-width:600px)

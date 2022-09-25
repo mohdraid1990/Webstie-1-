@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-style: inherit;  
+}
+header, 
+section {
+    overflow-x: hidden;
+}
+:root{
+    --Snigle-font:'Sniglet',cursive;
+    --Rubik:'Rubik',cursive;
+    --patua:'Patua one',cursive;
+    --Lobster:'Lobster',cursive;
+    --light-black:#624578;
+    --bggradient:linear-gradient (
+        to bottom,
+        #dd5432,#ff321f);
+    --light-gray:rgba(255,255,255,0)
+}
+header {
+    
+    background: var(--bggradient);
+    background-image: url(200.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    
+   
+
+    
+}
+header .container-fluid a{
+    font-family: var(--Snigle-font);
+    font-size: 1.2em;
+    color: rgb(14, 14, 15);
+    background: var(--bggradient);
+   
+    
+
+}
+
+header .nav-item:last-child {
+    padding-right: 4em;
+}
+header .nav-item {
+    padding: 0.3em;
+}
+header .navbar-brand{
+    padding-left: 3rem;
+}
+header .nav-link:hover{
+    color: #ff321f;
+
+}
+header .col-md-7{
+    
+   
+  
+    margin-top: 30vmin;
+    color: rgb(10, 10, 10);
+    font-family: var(--Rubik);
+    letter-spacing: 2px;
+    font-weight: 100px;
+}
+header .btn {
+    background-color: bisque;
+    color: var(--bggradient);
+    border-radius: 30px;
+    font-weight: bold;
+}
+/* section 1 */
+.section-1{
+    padding: 20vmin 0 ;
+}
+.section-1 img {
+    opacity: 0.8;
+    width: 75%;
+    border-radius: 0.2em;
+    margin-right: 200vmin;
+}
+
+.section-1 .panel{
+   
+    top:7vmin;
+    left: -18vmin;
+    background: whitesmoke;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgb(0, 0, 0,0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+.section-1 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.section-1 .panel p {
+    font-size: 0.9em;
+    color: rgba(0,0,0, 0.5);
+}
+
+/* section 2 */
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url(99.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content >h1{
+    font-family: var(--patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+.cover .content >p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: #e5e5e5;
+
+}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0,0, 0.349);
+
+}
+.numbers {
+    margin-top: -15vmin;
+}
+.numbers .rect h1 {
+    font-size:  5rem;
+    color: #ef877d;
+}
+.numbers .rect p {
+    font-family: var(--patua);
+}
+.purchase>h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.5em;
+    font-family: var(--Lobster);
+}
+.purchase>p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+
+}
+.cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+.cards .card .title {
+    background: rgba(13, 15, 15, 0.1);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+   
+}
+.card .card-text{
+    padding: 2rem 1rem;
+    color: var(--light-black)
+}
+.card-body .pricing{
+    background: rgba(208,241,241, 0.1);
+    border-bottom-right-radius: 1700px;
+    border-top-left-radius: 170px;
+    padding-left: 75px;
+
+}
+.card-body .pricing>h1 {
+    font-size: 7vmin;
+    padding: 0.5em 0.5em;
+}
+
+/* section 3 */
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background:#ff321f ;
+
+}
+.section-3 .col-md-12>h1{
+    padding: 2em 0 0.5em 0;
+    color: white;
+    font-size: 6vmin;
+
+}
+.section-3 .col-md-12>p{
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color:whitesmoke;
+    font-size: 3vmin;
+}
+.section-3 .desktop{
+    background: #e5e5e5;
+    display: inline-block;
+    border-radius: 2em;
+    margin-top: -8px;
+    
+    
+}
+.section-3 .desktop h3{
+     font-size: 4vmin;
+     padding: 1vmin 2vmin;
+   
+}
+.section-3 .desktop p{
+   
+    font-size: 2vmin;
+    margin-bottom: 10px;
+
+}
+.section-3 .desktop svg {
+    margin-top: 13px;
+    margin-right: -15px;
+}
+/*section 4*/
+.section-4  .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+
+}
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+.section-4 .card{
+    width: 22rem;
+    margin-top: 9vmin;
+}
+.section-4 .card .card-text{
+    padding: 0.5em;
+
+}
+.section-4 .card .card-body> a{
+    font-size: 1.5em;
+}
+.section-4 .carousel-item{
+    padding-left: 3rem;
+}
+.border-radius{
+    border-radius: 340px;
+    width: 60%;
+}
+
+/*footer*/
+footer{
+    background-color: rgba(0 ,0,0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+footer p>span{
+    color: #dd5432
+}
+footer input {
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+
+footer .input-group .input-group-text{
+    
+    background: whitesmoke;
+    border: none;
+}
+footer.column i {
+    color: #624578;
+}
+footer.column i+i {
+    padding: 0 0.5em;
+} 
+.container-fluid h1 {
+    color: #e5e5e5;
+}
+.col-md-2 .column {
+    color: aquamarine;
+    
+}
